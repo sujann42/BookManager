@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: green;
+}
+
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0; /*--top right bottom left*/
+}
+
+.success {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.css"
+          integrity="sha256-TNITsO43wu6JQM0Dom4hL/XAfROa86riLMhKuXJoCT0=" crossorigin="anonymous"/>
+    <!--Link to CSS Page-->
+    <link rel="stylesheet" type="text/css" href="booklist.css">
+    <title>Book List</title>
+
+</head>
+<body>
+<h1>Add Book</h1>
+<div class="container">
+    <!--Form to add books-->
+    <form id="book-form">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" id="title" class="u-full-width">
+        </div>
+        <div>
+            <label for="author">Author</label>
+            <input type="text" id="author" class="u-full-width">
+        </div>
+        <div>
+            <label for="title">ISBN#</label>
+            <input type="text" id="isbn" class="u-full-width">
+            <!--Submit button-->
+        </div>
+        <input type="submit" value="SUBMIT" class="u-full-width">
+        <div>
+
+        </div>
+    </form>
+    <!--Table to display books-->
+    <table class="u-full-width">
+        <th>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <!--This is a delete link-->
+            <th></th>
+        </tr>
+        </th>
+        <tbody id="book-list"></tbody>
+    </table>
+
+</div>
+
+<!--Link to the Javascript page-->
+<script src="appes6.js"></script>
+</body>
+</html>
